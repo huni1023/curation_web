@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
 
-  let [article_title, article_title_change] = useState(['종민이랑 워크숍', '하나씩 차분하게', '교육플랫폼 개발용']);
+  let [article_title, article_title_change] = useState(['2022년 워크숍', '하나씩 차분하게', '교육플랫폼 개발용']);
   let [like_cnt, like_cnt_change] = useState(0);
   let posts = 'Cury'
   let main_css = {color: 'white'}
